@@ -1,0 +1,33 @@
+header {
+  background-color: #4A90E2;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 42px;
+  color: #fff;
+  margin-bottom: 6px;
+}
+
+a .logo {
+  height: 24px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+ul li {
+  padding-left: 15px;
+  cursor: pointer;
+}
+
+ul span, svg {
+  vertical-align: middle;
+}
+
+ul svg {
+  font-size: 24px;
+}
