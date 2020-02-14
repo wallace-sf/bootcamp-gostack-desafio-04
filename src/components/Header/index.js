@@ -6,7 +6,7 @@ import logo from '../../assets/imgs/logo.png'
 
 function Header() {
   return (
-    <header>
+    <header className="header">
       <a href="/">
         <img src={logo} alt="Logo" className="logo" />
       </a>

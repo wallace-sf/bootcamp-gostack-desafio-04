@@ -1,4 +1,4 @@
-header {
+.header {
   background-color: #4A90E2;
   height: 64px;
   display: flex;
@@ -10,24 +10,24 @@ header {
   margin-bottom: 6px;
 }
 
-a .logo {
+.header a .logo {
   height: 24px;
 }
 
-ul {
+.header ul {
   display: flex;
   list-style-type: none;
 }
 
-ul li {
+.header ul li {
   padding-left: 15px;
   cursor: pointer;
 }
 
-ul span, svg {
+.header ul span, svg {
   vertical-align: middle;
 }
 
-ul svg {
+.header ul svg {
   font-size: 24px;
 }

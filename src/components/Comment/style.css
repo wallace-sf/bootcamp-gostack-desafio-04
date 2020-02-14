@@ -1,0 +1,34 @@
+.comment {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.comment .comment-avatar {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.comment .comment-avatar img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+
+.comment p {
+  margin: 0;
+  margin-left: 10px;
+  padding: 15px ;
+  width: 100%;
+  border-radius: 28px;
+  background-color: #eeeeee;
+  text-align: justify;
+}
